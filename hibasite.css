@@ -1,0 +1,135 @@
+{ margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'popins',sans-serif;
+  scroll:display;
+}
+p{ 
+font-weight: 300;
+color: black;
+}
+header {position: fixed;
+       top :0%;
+	   left: 0%;
+	   padding: 20px 10px;
+	   width: 90%;
+	   z-index: 1;
+	   display: flex;
+       justify-content: space-evenly;
+		align-items: center;
+		transition: 0.5s;
+}
+.practice{ color:rgb(204, 204, 0);
+          text-transform:underline;
+		  font-family:italic;
+		  text-align:center;
+		  font-weight:300;
+		  }
+ .logoo{
+	 border:solid black;
+	 padding:15px;
+	 border-radius:15%;
+	 color:blue;
+	 font-weight: bold;
+	 font-size: 2em;
+	 text-decoration: none;
+ }
+  .logoo span{
+	  color:black;
+  }
+   .abz{
+	   display: flex;
+	   position: relative;
+   }
+   
+   .abz li{
+	   list-style: none;
+   }
+    .abz a{
+	   color:rgb(115, 77, 38);
+	   text-decoration:underline;
+	   margin-left: 30px;
+	   font-weight:700;
+   }
+   .cc{
+	   padding: 10px 20px;
+	   background: orange;
+	   margin-top: -10px;
+	   text-transform:uppercase;
+	   border-radius:10%;
+   }
+   
+   .cc:hover{
+	   background:yellow;
+	   transition: ease-out;
+   }
+   header .az li a:hover{
+	   color: green;
+	   border-bottom: 2px solid pink;
+	   text-align:center;
+   }
+   .learn{
+	   text-align:center;
+	   position: relative;
+	   display:flex;
+	   justify-content:center;
+	   background-image:url('C:\Users\hibaj\OneDrive\Bureau\pageweb3\white and brown minimalist.png');
+	   width:800 px;
+	   height:400 px;
+	   width: 100%;
+	   min-height: 100vh;
+	   display: flex;
+	   justify-content: center;
+	   align-items: center;
+	 
+	   background-size: cover;
+   }
+   
+   .learn .contenu{
+	    max-width: 	70%;
+		text-align: center;
+   }
+   
+   .learn .contenu h2{
+	   color:rgb(217, 179, 140);
+	   font-size: 3em;
+	   text-transform: capitalize;
+   }
+   
+   .contenu p:nth-child(2){
+	   color:black;
+	   font-size: 1.2em;
+   }
+   
+
+   section{
+	   padding: 100px;
+   }
+   .row{
+	   position: relative;
+	   width: 100%;
+	   display: flex;
+	   justify-content: space-between;
+   }
+   .row .col{
+	   position: relative;
+	   width: 48%;
+	   justify-content: center;
+	   align-items: center;
+   }
+   
+   .row .col h2{
+	   margin-bottom: 20px;
+   }
+   .titree{
+	   color:black;
+	   font-size: 2em;
+	   font-weight: 300px;
+	   text-transform: capitalize;
+   }
+   .titree span{
+	   color: orange;
+	   font-size:1.5em; 
+	   font-weight: 700px;
+   }
+    
